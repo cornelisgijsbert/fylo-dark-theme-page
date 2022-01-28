@@ -28,7 +28,7 @@
     </style>
   </head>
 
-  <body onload="document.form1.text1.focus()">
+  <body>
     <main>
       <header>
         <figure>
@@ -142,10 +142,10 @@
         </div>
       </section>
       <section class="grid-review">
-        <!--<figure class="grid-review-quotes">
-          <img src="images/bg-quotes.png" alt="" />
-        </figure>-->
-        <div>
+        <div class="first-review">
+          <!--<figure class="grid-review-quotes">
+            <img src="images/bg-quotes.png" alt="" />
+          </figure>-->
           <p>
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -200,7 +200,7 @@
             <input name="text1" placeholder="email@example.com" type="text" />
             <input
               name="submit"
-              onclick="validateEmail(document.form1.text1)"
+              onclick="validateEmail(document.form1.text1);"
               type="submit"
               value="Get Started For Free"
             />

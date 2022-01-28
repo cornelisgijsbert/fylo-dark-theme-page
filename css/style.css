@@ -325,18 +325,32 @@ section.grid-review div {
   line-height: 1.7;
 }
 
-/*section.grid-review div.first-review {
+section.grid-review div.first-review {
+  margin-top: 18px;
   position: relative;
-  z-index: 2;
-}*/
+}
 
-section.grid-review .grid-review-quotes {
-  /*position: absolute;*/
-  top: -18px;
-  left: 5px;
+section.grid-review div.first-review::before {
+  content: "";
+  background-image: url(../images/bg-quotes.png);
+  background-size: cover;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  left: 0;
   width: 22px;
   height: 18px;
+  z-index: -1;
 }
+
+/*section.grid-review .grid-review-quotes {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  width: 22px;
+  height: 18px;
+  z-index: -1;
+}*/
 
 section.grid-review .grid-review-quotes img {
   width: 100%;
@@ -502,11 +516,11 @@ section.colofoon ul li {
     padding-top: 5.0714em;
     max-width: 1240px;
   }
-  section.grid-review {
+  /*section.grid-review {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 2em;
-  }
+  }*/
   section.colofoon {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
