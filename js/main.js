@@ -4,12 +4,12 @@ function validateEmail(inputText) {
     if (inputText.value.match(mailformat)) {
         //alert("Valid email address!");
         x.style.display = "none";
-        //document.form1.text1.focus();
-        //return true;
+        document.form1.text1.focus();
+        return true;
     } else {
         x.style.display = "block";
         //alert("You have entered an invalid email address!");
-        //document.form1.text1.focus();
-        //return false;
+        document.form1.text1.focus();
+        return false;
     }
 }
