@@ -14,6 +14,8 @@
   --linear-bg-intro: hsl(217, 28%, 15%) 40%, hsl(218, 28%, 13%) 60%;
 }
 
+/* utillities */
+
 .flex-vert-align {
   display: flex;
   align-items: center;
@@ -92,6 +94,8 @@
   box-sizing: border-box;
 }
 
+/* gobal syles */
+
 body {
   font-family: "Open+Sans";
   font-size: 14px;
@@ -131,14 +135,12 @@ button:hover {
 }
 
 section h1 {
-  /*padding: 10px 35px 10px 35px;*/
   font-family: Raleway;
   font-size: 1.7142em;
   font-weight: 700;
 }
 
 section h3 {
-  /*padding: 10px 35px 10px 35px;*/
   font-family: Raleway;
   font-size: 1.2857em;
   font-weight: 700;
@@ -167,6 +169,12 @@ header ul li {
   font-size: 0.8571em;
   font-family: Raleway;
   font-weight: 400;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  color: white;
+  font-weight: 700;
 }
 
 header ul li:nth-child(1) {
@@ -177,14 +185,15 @@ header ul li:nth-child(2) {
   margin-right: 1.7142em;
 }
 
+/* intro section */
+
 section.intro {
-  background: linear-gradient(hsl(217, 28%, 15%) 40%, hsl(218, 28%, 13%) 60%);
-  /*background-color: var(--intro-email-bg);*/
+  background: linear-gradient(hsl(217, 28%, 15%) 50%, hsl(218, 28%, 13%) 50%);
 }
 
 section.intro div {
   background-image: url("../images/bg-curvy-mobile.svg");
-  background-position: left 38%;
+  background-position: left calc(100vw * 0.59);
   /* org 215px */
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -204,19 +213,6 @@ section.intro figure {
   max-width: 720px;
 }
 
-/*section.intro figure::after {
-  content: "xxxxxx";
-  position: absolute;
-  background-image: url("../images/bg-curvy-mobile.svg");
-  background-size: cover;
-  width: 100vw;
-  height: calc(100vw * 0.376);
-  position: absolute;
-  left: calc(100vw * -0.093333);
-  top: 190px;
-  z-index: 0;
-}*/
-
 section.intro h1 {
   margin-top: 1.6458em;
   line-height: 1.52;
@@ -229,9 +225,7 @@ section.intro p {
   line-height: 1.5;
 }
 
-/*section.intro button {
-    margin-top: 2em;
-}*/
+/* section specs */
 
 section.grid-specs {
   display: grid;
@@ -260,6 +254,8 @@ section.grid-specs p {
   font-size: 1em;
   line-height: 1.5;
 }
+
+/* section productive */
 
 section.grid-productive {
   display: grid;
@@ -302,6 +298,8 @@ section.grid-productive p.para-link-fylo a:hover {
   border-bottom: 1px solid white;
   filter: saturate(0) contrast(150%) brightness(100%);
 }
+
+/* section review */
 
 section.grid-review {
   display: grid;
@@ -471,12 +469,13 @@ section.colofoon ul li {
 /* media queries */
 
 @media only screen and (min-width: 500px) {
+  /* section intro */
   section.intro {
     background: linear-gradient(hsl(217, 28%, 15%) 60%, hsl(218, 28%, 13%) 40%);
   }
-  section.intro div {
+  /*section.intro div {
     background-position: left 47%;
-  }
+  }*/
 }
 
 @media only screen and (min-width: 725px) {
