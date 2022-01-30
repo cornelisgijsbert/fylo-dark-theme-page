@@ -188,7 +188,11 @@ header ul li:nth-child(2) {
 /* intro section */
 
 section.intro {
-  background: linear-gradient(hsl(217, 28%, 15%) 50%, hsl(218, 28%, 13%) 50%);
+  background: linear-gradient(
+    to bottom,
+    hsl(217, 28%, 15%) calc(100vw * 0.95),
+    hsl(218, 28%, 13%) calc(100vw * 0.95)
+  );
 }
 
 section.intro div {
@@ -471,11 +475,15 @@ section.colofoon ul li {
 @media only screen and (min-width: 500px) {
   /* section intro */
   section.intro {
-    background: linear-gradient(hsl(217, 28%, 15%) 60%, hsl(218, 28%, 13%) 40%);
+    background: linear-gradient(
+      to bottom,
+      hsl(217, 28%, 15%) calc(100vw * 0.93),
+      hsl(218, 28%, 13%) calc(100vw * 0.93)
+    );
   }
-  /*section.intro div {
-    background-position: left 47%;
-  }*/
+  section.intro div {
+    background-position: left calc(100vw * 0.57);
+  }
 }
 
 @media only screen and (min-width: 725px) {
@@ -483,11 +491,15 @@ section.colofoon ul li {
     font-size: 2.1705em;
   }
   section.intro {
-    background: linear-gradient(hsl(217, 28%, 15%) 70%, hsl(218, 28%, 13%) 30%);
+    background: linear-gradient(
+      to bottom,
+      white calc(100vw * 0.91),
+      hsl(218, 28%, 13%) calc(100vw * 0.91)
+    );
   }
   section.intro div {
     /*background-image: url("../images/bg-curvy-desktop.svg");*/
-    background-position: left 60%;
+    background-position: left calc(100vw * 0.55);
     margin: auto;
   }
   section.intro p {
@@ -528,11 +540,15 @@ section.colofoon ul li {
 
 @media only screen and (min-width: 800px) {
   section.intro {
-    background: linear-gradient(hsl(217, 28%, 15%) 78%, hsl(218, 28%, 13%) 22%);
+    background: linear-gradient(
+      to bottom,
+      white calc(100vw * 0.85),
+      hsl(218, 28%, 13%) calc(100vw * 0.85)
+    );
   }
   section.intro div {
-    /*background-image: url("../images/bg-curvy-desktop.svg");*/
-    background-position: left 70%;
+    background-image: url("../images/bg-curvy-desktop.svg");
+    background-position: left calc(100vw * 0.54);
     margin: auto;
   }
 }
@@ -570,7 +586,7 @@ section.colofoon ul li {
     margin-right: 3.5625em;
   }
   section.intro {
-    background: linear-gradient(hsl(217, 28%, 15%) 99%, hsl(218, 28%, 13%) 1%);
+    background: linear-gradient(hsl(217, 28%, 15%) 99%, hsl(218, 28%, 13%) 99%);
   }
   section.intro div {
     background-image: url("../images/bg-curvy-desktop.svg");
