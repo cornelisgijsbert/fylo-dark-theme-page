@@ -452,27 +452,48 @@ section.colofoon {
 section.colofoon div {
     display: flex;
     gap: 1.964em;
-    margin-top: 3.5em;
+    margin-top: 3em;
+}
+
+section.colofoon div figure {
+    margin-top: 0.5em;
 }
 
 section.colofoon p {
     font-size: 1.3em;
-    line-height: 1.5;
+    line-height: 1.35;
 }
 
-section.colofoon ul {
-    margin-top: 2em;
+section.colofoon ul.colofoon-contact {
+    /*margin-top: 1.5em;*/
     list-style: none;
 }
 
-section.colofoon ul:nth-child(6) li {
-    display: inline;
-    margin: 1em;
+section.colofoon ul.colofoon-contact li {
+    display: flex;
+    align-items: center;
+    gap: 1.964em;
+    margin-top: 1.5em;
+    font-size: 0.8em;
+}
+
+section.colofoon ul.colofoon-bottom-nav {
+    margin-top: 5em;
+    list-style: none;
 }
 
 section.colofoon ul li {
     font-size: 1.3em;
-    line-height: 2.5;
+    line-height: 2;
+}
+
+section.colofoon ul:nth-child(5) {
+    margin-top: 2em;
+}
+
+section.colofoon ul.social-media li {
+    display: inline;
+    margin: 1em;
 }
 
 
