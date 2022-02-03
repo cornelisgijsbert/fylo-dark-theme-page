@@ -446,7 +446,7 @@ section.colofoon {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
-    padding: 5.5em 7.3% 20px 7.3%;
+    padding: 5.5em 7.3% 2.5rem 7.3%;
 }
 
 section.colofoon div {
@@ -459,7 +459,7 @@ section.colofoon div figure {
     margin-top: 0.5em;
 }
 
-section.colofoon p {
+section.colofoon div p {
     font-size: 1.3em;
     line-height: 1.35;
 }
@@ -474,7 +474,7 @@ section.colofoon ul.colofoon-contact li {
     align-items: center;
     gap: 1.964em;
     margin-top: 1.5em;
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 
 section.colofoon ul.colofoon-bottom-nav {
@@ -482,18 +482,22 @@ section.colofoon ul.colofoon-bottom-nav {
     list-style: none;
 }
 
-section.colofoon ul li {
+section.colofoon ul.colofoon-bottom-nav li {
     font-size: 1.3em;
     line-height: 2;
 }
 
 section.colofoon ul:nth-child(5) {
-    margin-top: 2em;
+    margin-top: 2.2em;
+}
+
+section.colofoon ul.social-media {
+    margin-top: 5.5em;
 }
 
 section.colofoon ul.social-media li {
     display: inline;
-    margin: 1em;
+    margin: 0.5em;
 }
 
 
@@ -716,15 +720,31 @@ section.colofoon ul.social-media li {
     section.colofoon {
         grid-template-columns: 2.1fr 1.2fr 0.5fr 0.5fr 0.7fr;
         grid-template-rows: auto auto;
-        column-gap: 9em;
+        column-gap: 5.5em;
     }
     section.colofoon figure.colofoon-logo {
         grid-column: 1 / span 5;
     }
+    section.colofoon div p {
+        font-size: 0.95rem;
+    }
+    section.colofoon ul.colofoon-contact {
+        margin-top: 3em;
+    }
+    section.colofoon ul.colofoon-contact li {
+        font-size: 0.8rem;
+    }
+    section.colofoon ul.colofoon-bottom-nav {
+        margin-top: 3em;
+    }
+    section.colofoon ul.colofoon-bottom-nav li {
+        font-size: 0.9rem;
+    }
     section.colofoon ul.social-media {
         grid-column: 5 / span 1;
+        margin-top: 3em;
     }
-    section.colofoon ul:nth-child(6) li {
+    /*section.colofoon ul:nth-child(6) li {
         margin: 0.5em;
-    }
+    }*/
 }
