@@ -225,7 +225,7 @@ section.intro h1 {
 section.intro p {
   margin-top: 1.75em;
   margin-bottom: 2.4285em;
-  font-size: 1em;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 
@@ -255,7 +255,7 @@ section.grid-specs h3 {
 section.grid-specs p {
   margin-top: 1.1071em;
   margin-bottom: 4.5em;
-  font-size: 1em;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 
@@ -281,7 +281,7 @@ section.grid-productive h3 {
 
 section.grid-productive p {
   margin-top: 1em;
-  font-size: 1.1em;
+  font-size: 0.95em;
   line-height: 1.3;
 }
 
@@ -290,7 +290,7 @@ section.grid-productive p.para-link-fylo a {
   align-items: center;
   gap: 0.5em;
   text-align: left;
-  font-size: 0.9em;
+  font-size: 0.73rem;
   padding-bottom: 0.25em;
   width: 13em;
   border-bottom: 1px solid var(--active-action-gradient);
@@ -311,7 +311,7 @@ section.grid-review {
   grid-template-rows: auto auto auto;
   gap: 2.1em;
   position: relative;
-  font-size: 0.75em;
+  font-size: 0.55rem;
   width: 16.5rem;
   margin-top: 0;
   margin-right: auto;
@@ -383,11 +383,11 @@ section.email div {
 section.email p {
   margin-top: 1.785em;
   margin-right: auto;
-  width: 35ch;
+  max-width: 35ch;
   line-height: 1.4;
   margin-bottom: 2.5em;
   margin-left: auto;
-  font-size: 1.1em;
+  font-size: 0.8rem;
 }
 
 section.email form {
@@ -455,7 +455,7 @@ section.colofoon div figure {
 }
 
 section.colofoon div p {
-  font-size: 1.3em;
+  font-size: 0.9rem;
   line-height: 1.35;
 }
 
@@ -469,7 +469,7 @@ section.colofoon ul.colofoon-contact li {
   align-items: center;
   gap: 1.964em;
   margin-top: 1.5em;
-  font-size: 1.1em;
+  font-size: 0.8rem;
 }
 
 section.colofoon ul.colofoon-bottom-nav {
@@ -478,7 +478,7 @@ section.colofoon ul.colofoon-bottom-nav {
 }
 
 section.colofoon ul.colofoon-bottom-nav li {
-  font-size: 1.3em;
+  font-size: 0.9rem;
   line-height: 2;
 }
 
@@ -530,7 +530,7 @@ section.colofoon ul.social-media li {
     margin: auto;
   }
   section.intro p {
-    font-size: 1.1428em;
+    font-size: 1rem;
   }
   section.grid-specs {
     grid-template-columns: 1fr 1fr;
@@ -553,6 +553,9 @@ section.colofoon ul.social-media li {
     grid-column: 1 / 3;
     width: 16.5rem;
     margin: auto;
+  }
+  section.email p {
+    font-size: 1rem;
   }
   /* section colofoon */
   section.colofoon {
@@ -652,7 +655,7 @@ section.colofoon ul.social-media li {
     margin-top: 1.74em;
     margin-bottom: 1.619em;
     /* 21px */
-    font-size: 1.5em;
+    font-size: 1.125rem;
     line-height: 1.4;
   }
   section.grid-productive div h3 {
@@ -725,11 +728,8 @@ section.colofoon ul.social-media li {
     margin-top: 2.19em;
     margin-bottom: 1.619em;
     /* 21px */
-    font-size: 1.5em;
+    font-size: 1.25rem;
     line-height: 1.4;
-  }
-  section.grid-review {
-    font-size: 1em;
   }
   section.grid-review {
     grid-template-columns: 20.1rem 20.1rem 20.1rem;
