@@ -202,7 +202,6 @@ section.intro {
 section.intro div {
     background-image: url("../images/bg-curvy-mobile.svg");
     background-position: left calc(100vw * 0.59);
-    /* org 215px */
     background-repeat: no-repeat;
     background-size: 100% auto;
     display: flex;
@@ -324,7 +323,6 @@ section.grid-review {
     margin-right: auto;
     margin-bottom: 15em;
     margin-left: auto;
-    /*width: 74.8%*/
     max-width: 1170px;
 }
 
@@ -333,7 +331,6 @@ section.grid-review div {
     position: relative;
     z-index: 2;
     padding: 2.14em 2.08em 1.57em 2.08em;
-    /*margin: auto;*/
     border: none;
     border-radius: 10px;
     line-height: 1.7;
@@ -404,7 +401,6 @@ section.email form {
     justify-content: center;
     gap: 1.7142em;
     width: 280px;
-    /* 83.3% */
     margin: auto;
 }
 
@@ -469,7 +465,6 @@ section.colofoon div p {
 }
 
 section.colofoon ul.colofoon-contact {
-    /*margin-top: 1.5em;*/
     list-style: none;
 }
 
@@ -535,7 +530,6 @@ section.colofoon ul.social-media li {
         background: linear-gradient( to bottom, var(--intro-email-bg) calc(100vw * 0.91), var(--main-bg) calc(100vw * 0.91));
     }
     section.intro div {
-        /*background-image: url("../images/bg-curvy-desktop.svg");*/
         background-position: left calc(100vw * 0.55);
         margin: auto;
     }
@@ -548,6 +542,7 @@ section.colofoon ul.social-media li {
         grid-template-rows: 1fr 1fr;
         gap: 9em;
     }
+    /* section productive */
     section.grid-productive {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
@@ -555,6 +550,7 @@ section.colofoon ul.social-media li {
         padding-top: 5.0714em;
         max-width: 1240px;
     }
+    /* section review */
     section.grid-review {
         grid-template-columns: 16.5rem 16.5rem;
         grid-template-rows: auto auto;
@@ -565,8 +561,9 @@ section.colofoon ul.social-media li {
         width: 16.5rem;
         margin: auto;
     }
+    /* section email */
     section.email p {
-        font-size: 1rem;
+        font-size: 0.9375rem;
     }
     /* section colofoon */
     section.colofoon {
@@ -676,6 +673,7 @@ section.colofoon ul.social-media li {
     section.grid-productive .link-fylo {
         font-size: 1rem;
     }
+    /* section review */
     section.grid-review {
         /*22.625rem*/
         grid-template-columns: 22.5rem 22.5rem;
@@ -696,16 +694,17 @@ section.colofoon ul.social-media li {
         height: 45px;
         z-index: 1;
     }
+    /* section email */
     section.email h3 {
         font-size: 2.2142em;
     }
     section.email p {
-        width: 72%;
+        max-width: 72%;
         font-size: 1em;
     }
     section.email form {
         flex-direction: row;
-        width: 82%;
+        width: 90%;
     }
     section.email input[type="text"] {
         width: 67.7%;
@@ -735,7 +734,6 @@ section.colofoon ul.social-media li {
         font-size: 1.25rem;
         line-height: 1.4;
     }
-    /* section productive */
     /* section review */
     section.grid-review {
         grid-template-columns: 22.5rem 22.5rem 22.5rem;
@@ -782,7 +780,4 @@ section.colofoon ul.social-media li {
         grid-column: 5 / span 1;
         margin-top: 3em;
     }
-    /*section.colofoon ul:nth-child(6) li {
-        margin: 0.5em;
-    }*/
 }
