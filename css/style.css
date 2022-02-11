@@ -428,7 +428,7 @@ section.email input[type="submit"] {
 }
 
 section.email div#message {
-    display: none;
+    /*display: none;*/
     color: red;
     font-size: 0.7em;
     margin: 0;

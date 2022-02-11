@@ -22,8 +22,9 @@
             color: hsl(228, 45%, 44%);
         }
   </style>
-</head><!--<body onload="document.form1.text1.focus()">-->
-<body>
+</head>
+<body onclick="document.form1.text1.focus()">
+  <!--onload="document.form1.text1.focus()"-->
   <main>
     <!-- Top navigation -->
     <header>
@@ -159,10 +160,10 @@
                 type="text"> <input name="submit"
                 onclick="validateEmail(document.form1.text1)"
                 type="submit"
-                value="Get Started For Free">
+                value="Get Started For Free"> <!--onclick="validateEmail(document.form1.text1)"-->
         </form>
         <div id="message">
-          Please enter a valid emailadress
+          <!--Please enter a valid emailadress-->
         </div>
       </div>
     </section><!-- bottom navigations -->
