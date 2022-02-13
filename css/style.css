@@ -414,7 +414,7 @@ section.email input[type="text"] {
     border-radius: 24px;
 }
 
-section.email input[type="submit"] {
+section.email input[type="button"] {
     background-color: var(--action-gradient);
     color: var(--white);
     width: 280px;
@@ -709,7 +709,7 @@ section.colofoon ul.social-media li {
     section.email input[type="text"] {
         width: 67.7%;
     }
-    section.email input[type="submit"] {
+    section.email input[type="button"] {
         width: 28.2%;
     }
 }
