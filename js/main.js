@@ -1,17 +1,11 @@
 document.getElementById("button1").addEventListener("click", validateEmail);
 var x = document.getElementById("message");
-//var txt = document.forms["form1"]["text1"].value;
-var txt = document.getElementById("text1").value;
+var txt = document.forms["form1"]["text1"].value;
+//var txt = document.getElementById("text1").value;
 var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 function validateEmail() {
-    if (txt === mailformat) {
-        x.innerText = "";
-        return true;
-    } else {
-        x.innerText = "Enter a valid email adress";
-        return false;
-    }
+    x.innerHTML = txt;
 }
 console.log(txt);
 
