@@ -5,7 +5,11 @@ var txt = document.forms["form1"]["text1"].value;
 var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 function validateEmail() {
-    x.innerHTML = txt;
+    if (txt == mailformat) {
+        x.innerText = "";
+    } else {
+        x.innerText = "Please enter a valid email adress";
+    }
 }
 console.log(txt);
 

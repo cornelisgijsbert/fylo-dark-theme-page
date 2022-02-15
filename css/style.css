@@ -113,7 +113,7 @@ a {
   text-decoration: none;
 }
 
-button {
+.btn {
   background-color: var(--action-gradient);
   color: var(--white);
   display: flex;
@@ -130,7 +130,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   background-color: var(--active-action-gradient);
 }
 
@@ -613,7 +613,7 @@ section.colofoon ul.social-media li {
 }
 
 @media only screen and (min-width: 1023px) {
-  button {
+  .btn {
     width: 280px;
     height: 56px;
   }
