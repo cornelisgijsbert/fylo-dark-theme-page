@@ -7,8 +7,10 @@ var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 function validateEmail() {
     if (txt.match(mailformat)) {
         x.innerText = " ";
+        return true;
     } else {
         x.innerText = "Please enter a valid email adress";
+        return false;
     }
 }
 console.log(txt);
