@@ -28,7 +28,6 @@
     </style>
   </head>
   <body>
-    <!--onload="document.form1.text1.focus()"-->
     <main>
       <!-- Top navigation -->
       <header>
@@ -202,24 +201,16 @@
             extremely generous. If you have any questions, our support team
             would be happy to help you.
           </p>
-          <form id="form1" name="form1">
+          <form novalidate>
             <input
-              id="text1"
-              name="text1"
+              id="mail"
+              name="mail"
               placeholder="email@example.com"
-              type="text"
+              type="email"
             />
-            <input
-              id="button1"
-              name="button1"
-              type="button"
-              value="Get Started For Free"
-            />
+            <input name="submit" type="button" value="Get Started For Free" />
+            <span class="error"></span>
           </form>
-          <!--onclick="validateEmail(document.form1.text1)"-->
-          <div id="message">
-            <!--Please enter a valid emailadress-->
-          </div>
         </div>
       </section>
       <!-- bottom navigations -->
