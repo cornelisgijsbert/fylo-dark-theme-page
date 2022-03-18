@@ -414,7 +414,7 @@ section.email input[type="email"]:invalid {
   color: red;
 }
 
-section.email input[type="button"] {
+section.email button {
   background-color: var(--action-gradient);
   color: var(--white);
   width: 280px;
@@ -438,7 +438,7 @@ section.email .error.active {
   padding: 0.3em;
 }
 
-section.email input[type="button"]:hover {
+section.email button:hover {
   background-color: var(--active-action-gradient);
 }
 
@@ -726,7 +726,10 @@ section.colofoon ul.social-media li {
   section.email input[type="text"] {
     width: 67.7%;
   }
-  section.email input[type="button"] {
+  section.email span {
+    display: block;
+  }
+  section.email button {
     width: 28.2%;
   }
 }
