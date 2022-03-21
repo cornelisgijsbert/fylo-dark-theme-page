@@ -22,7 +22,7 @@ function showError() {
   if(email.validity.valueMissing) {
     emailError.textContent = 'You need to enter an e-mail address.';
     } else if(email.validity.typeMismatch) {
-      emailError.textContent = 'Entered value needs to be an e-mail address.';
+      emailError.textContent = 'Please enter a valid e-mail address.';
     } 
     emailError.className = 'error active';
 }

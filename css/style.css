@@ -381,7 +381,7 @@ section.email div {
   border-radius: 10px;
 }
 
-section.email p {
+section.email p.email-para {
   margin-top: 1.785em;
   margin-right: auto;
   max-width: 35ch;
@@ -430,12 +430,11 @@ section.email button {
 section.email span.error {
   /*width: 100%;*/
   color: red;
-  font-size: 0.7em;
-  margin: 0;
+  font-size: 0.85em;
 }
 
 section.email .error.active {
-  padding: 0.3em;
+  padding: 2em 0 0 0;
 }
 
 section.email button:hover {
@@ -721,7 +720,7 @@ section.colofoon ul.social-media li {
   }
   section.email form {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     width: 90%;
   }
   section.email input[type="text"] {
