@@ -714,7 +714,7 @@ section.colofoon ul.social-media li {
   section.email h3 {
     font-size: 2.2142em;
   }
-  section.email p {
+  section.email p.email-para {
     max-width: 72%;
     font-size: 1em;
   }
@@ -723,10 +723,10 @@ section.colofoon ul.social-media li {
     align-items: flex-start;
     width: 90%;
   }
-  section.email input[type="text"] {
+  section.email input[type="email"] {
     width: 67.7%;
   }
-  section.email span {
+  section.email span.error {
     display: block;
   }
   section.email button {
