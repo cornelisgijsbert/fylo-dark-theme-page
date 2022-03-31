@@ -400,6 +400,10 @@ section.email form {
   margin: auto;
 }
 
+section.email p.form-para {
+  width: 100%;
+}
+
 section.email input[type="email"] {
   color: rgba(0, 0, 0, 0.5);
   width: 280px;
@@ -723,8 +727,11 @@ section.colofoon ul.social-media li {
     align-items: flex-start;
     width: 90%;
   }
-  section.email input[type="email"] {
+  section.email p.form-para {
     width: 67.7%;
+  }
+  section.email input[type="email"] {
+    width: 100%;
   }
   section.email span.error {
     display: block;
